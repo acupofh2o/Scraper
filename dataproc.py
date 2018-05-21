@@ -26,7 +26,7 @@ mpdata = []
 
 for i in data.Metri_Patrati:
     mpstr = i.split(' ')
-    print mpstr
+
     if (mpstr[0] == 'Etaj' or 'P' in mpstr[0] or mpstr[1] == 'cam'):
         pass
     else:
